@@ -19,7 +19,6 @@
 const numeroPaginas = Math.ceil(peliculas.length / 5);
 for(let i = 0; i < numeroPaginas; i++){
     const indicador = document.createElement('button');
-
     document.querySelector('.indicadores').appendChild(indicador);
    
 }
