@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="estilos.css">
+    <title>Foxstor</title>
+</head>
+<body>
+    <div class="container-from sign-up">
+        <div class="welcome-back">
+          <div class="message">
+              <h2>Bienvenid@ a Foxstor</h2>
+              <p>Si ya tienes una cuenta por favor inicia sesion aqui</p>
+              <button class="sign-up-btn">Iniciar sesion</button>
+          </div>  
+        </div>
+        <form class="formulario">
+            <h2 class="create-account">Crear una cuenta</h2>
+            <div class="iconos">
+                <div class="border-icon">
+                    <i class='bx bxl-instagram'></i>
+                </div>
+                <div class="border-icon">
+                    <i class='bx bxl-google'></i>
+                </div>
+                <div class="border-icon">
+                    <i class='bx bxl-facebook-circle'></i>
+                </div>
+            </div>
+            <p class="cuenta-gratis">Crear una cuenta</p>
+            <input type="text" placeholder="Nombre">
+            <input type="email" placeholder="Email">
+            <input type="password" placeholder="Contraseña">
+            <input type="button" value="Registrarse">
+        </form>
+    </div>
+    <div class="container-from sign-in">
+        <form class="formulario">
+            <h2 class="create-account">Iniciar sesion</h2>
+            <div class="iconos">
+                <div class="border-icon">
+                    <i class='bx bxl-instagram'></i>
+                </div>
+                <div class="border-icon">
+                    <i class='bx bxl-google'></i>
+                </div>
+                <div class="border-icon">
+                    <i class='bx bxl-facebook-circle'></i>
+                </div>
+            </div>
+            <p class="cuenta-gratis">¿Aun no tienes una cuenta?</p>
+            <input type="usuario" id="usuario" placeholder="Usuario" autocomplete="off">
+            <input type="password" id="contraseña" placeholder="Contraseña">
+            <input type="button" onclick="login()" value="Iniciar sesion">
+            <p id="demo" style="padding: 10px; font-size: 13px; color: red;"></p>
+        </form>
+        <div class="welcome-back">
+          <div class="message">
+              <h2>Bienvenid@ de nuevo</h2>
+              <p>Si aun no tienes una cuenta por favor registrese aqui</p>
+              <button class="sign-in-btn">Registrarse</button>
+          </div>  
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

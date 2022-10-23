@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(otoño.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+
+.container-from{
+    width: 90%;
+    height: 90vh;
+    display: flex;
+    justify-content: space-around;
+    transition: all .5s ease-out;
+}
+
+.welcome-back{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.message{
+    padding: 16px;
+}
+
+.message h2{
+    font-size: 27px;
+    padding: 16px 0;
+    color: #ffffff;
+}
+
+.message button{
+    padding: 16px;
+    font-weight: 400;
+    background-color: #8d5b05;
+    border-radius: 32px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 32px;
+    transition: all .3s ease-in;
+    color: #fff;
+}
+
+.message button:hover{
+    background-color: #ca8104;
+}
+.formulario{
+    width: 520px;
+    padding: 15px;
+    margin: 30px;
+    background-color: rgba(134, 56, 0, 0.774);
+    text-align: center;
+    border-radius: 50%;
+}
+
+.create-account{
+    padding: 43px 0;
+    font-size: 25px;
+}
+
+.iconos{
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.border-icon{
+    height: 20px;
+    width: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+    border: solid thin white;
+    border-radius: 50%;
+    font-size: 24px;
+    transition: all .3s ease-in;
+}
+
+.border-icon:hover{
+    background-color: #e39205;
+    cursor: pointer;
+}
+
+.cuenta-gratis{
+    padding: 32px 0;
+}
+
+.formulario input{
+    width: 70%;
+    display: block;
+    margin: auto;
+    margin-bottom: 32px;
+    background-color: transparent;
+    border: none;
+    border-bottom: white thin solid;
+    text-align: center;
+    outline: none;
+    padding: 3px 0;
+    font-size: 14px;
+    color: white;
+}
+
+.formulario input[type="button"]{
+    width: 60%;
+    margin: auto;
+    border: solid thin white;
+    padding: 11px;
+    border-radius: 32px;
+    background-color: white;
+    font-weight: 600;
+    margin-top: 48px;
+    font-size: 12px;
+    cursor: pointer;
+    color: #222;
+}
+
+.sign-in{
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.sign-in-btn{
+    border-radius: 50%;
+}
+
+.sign-up-btn{
+    border-radius: 50%;
+}
+
+.sign-in.active{
+    opacity: 1;
+    visibility: visible;
+}
+
+.sign-up.active{
+    opacity: 0;
+    visibility: hidden;
+}
