@@ -142,7 +142,7 @@ header nav a:active{
 .peliculas-recomendadas .contenedor-carusel{
     width: 100%;
     padding: 20px 0;
-    overflow-x: hidden;
+    overflow: hidden;
     scroll-behavior: smooth;
 }
 .peliculas-recomendadas .contenedor-carusel .carusel{
