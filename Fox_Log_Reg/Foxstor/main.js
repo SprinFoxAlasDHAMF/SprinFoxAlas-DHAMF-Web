@@ -13,13 +13,3 @@
 });
 
 const numeroPaginas = Math.ceil(peliculas.length /5);
-
-peliculas.forEach((pelicula) => {
-    pelicula.addEventListener('mouseenter', (e) =>{
-        const elemento = e.currentTarget;
-        setTimeout(() => {
-            pelicula.forEach(pelicula => pelicula.classList.remove('hover'));
-            elemento.classList.add('hover');
-        }, 300);
-    });
-});
