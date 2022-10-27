@@ -2,7 +2,7 @@ function login(){
     var user = document.getElementById ("usuario").value;
     var pass = document.getElementById ("contraseña").value;
 
-    if(user == "Foxstor" && pass == "volpina1999" || user == "Pastorsoft" && pass == "1976"){
+    if(user == "Fox" && pass == "1999" || user == "Pastorsoft" && pass == "1976"){
         window.location = "Foxstor/index.html"
     }else{
         document.getElementById("demo").innerHTML="Contraseña o Correo Electronico incorrecto."; 
