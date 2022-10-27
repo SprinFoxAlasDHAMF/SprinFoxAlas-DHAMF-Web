@@ -13,3 +13,4 @@
 });
 
 const numeroPaginas = Math.ceil(peliculas.length /5);
+
