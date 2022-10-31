@@ -33,7 +33,7 @@ header .logotipo{
 header nav a{
     color: #AAA;
     text-decoration: none;
-    margin-right: 0px;
+    margin-right: 5px;
 }
 header nav a:hover,
 header nav a:active{
