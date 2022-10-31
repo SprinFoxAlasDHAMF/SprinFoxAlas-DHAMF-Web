@@ -41,3 +41,7 @@ header nav a:hover,
 header nav a:active{
     color: #FFF;
 }
+.pelicula-principal{
+background:url(IMG/0.jpg);
+color: white;
+}
