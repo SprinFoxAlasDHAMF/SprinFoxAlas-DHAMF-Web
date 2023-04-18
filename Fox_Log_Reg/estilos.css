@@ -10,7 +10,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url(otoño.gif);
+    background-image: url(primavera.gif);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -44,7 +44,7 @@ body{
 .message button{
     padding: 16px;
     font-weight: 400;
-    background-color: #8d5b05;
+    background-color: #42058d;
     border-radius: 32px;
     border: none;
     outline: none;
@@ -56,13 +56,13 @@ body{
 }
 
 .message button:hover{
-    background-color: #ca8104;
+    background-color: #42058d;
 }
 .formulario{
     width: 520px;
     padding: 15px;
     margin: 30px;
-    background-color: rgba(134, 56, 0, 0.774);
+    background-color: #42058d92;
     text-align: center;
     border-radius: 50%;
 }
@@ -99,6 +99,10 @@ body{
 
 .cuenta-gratis{
     padding: 32px 0;
+}
+
+::placeholder{
+    color: #bcbcbc;
 }
 
 .formulario input{
