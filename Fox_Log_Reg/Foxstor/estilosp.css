@@ -1,46 +1,44 @@
 :root{
     --rojo: #f21515; 
     --fondo: #141414;
-}
-
-*{
+ }
+ *{
      margin: 0;
      padding: 0;
      box-sizing: border-box;
-}
-
-body{
-    background: var(--fondo);
-    font-family: 'Open Sans', sans-serif; 
-}
-
-.contenedor{
-    width: 90%;
-    margin: auto;
-}
-header{
-    padding: 30px 0;
-}
-header .contenedor{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-header .logotipo{
-    font-family: 'Bebas Neue', cursive;
-    font-weight: normal;
-    color: var(--rojo);
-    font-size: 40px;
-}
-header nav a{
-    color: #AAA;
-    text-decoration: none;
-    margin-right: 20px;
-}
-header nav a:hover,
-header nav a:active{
-    color: #FFF;
-}
+ }
+ body{
+     background: var(--fondo);
+     font-family: 'Open Sans', sans-serif; 
+ }
+ .contenedor{
+     width: 90%;
+     margin: auto;
+ }
+ header{
+     padding: 30px 0;
+ }
+ header .contenedor{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+ header .logotipo{
+     font-family: 'Bebas Neue', cursive;
+     font-weight: normal;
+     color: var(--rojo);
+     font-size: 40px;
+     margin-right: 10px;
+ }
+ header nav a{
+     color: #AAA;
+     text-decoration: none;
+     margin-right: 5px;
+ }
+ header nav a:hover,
+ header nav a:active{
+     color: #FFF;
+ }
 .pelicula-principal{
 background:url(IMG/0.jpg);
 color: white;
