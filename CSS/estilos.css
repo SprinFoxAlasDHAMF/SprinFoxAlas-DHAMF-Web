@@ -47,7 +47,7 @@ nav > a:hover{
 }
 header .textos-header{
     display: flex;
-    height: 400px;
+    height: 300px;
     width: 100%;
     align-items: center;
     justify-content: center;
@@ -70,9 +70,10 @@ header .textos-header{
 .contenedor-sobre-nosotros{
     display: flex;
     justify-content: space-evenly;
+    margin-right: 10px;
 }
 .imagen-about-us{
-    width: 48%;
+    width: 40%;
 }
 .sobre-nosotros .contenedor-textos{
     width: 48%;
