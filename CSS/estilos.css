@@ -7,9 +7,9 @@ body{
     font-family: cursive;
 }
 .contenedor{
-    padding: 60px 0;
-    width: 90%;
-    max-width: 1000px;
+    padding: 50px 0;
+    width: 100%;
+    max-width: 85%;
     margin: auto;
     overflow: hidden;
 }
@@ -17,7 +17,7 @@ body{
     color: #4c93a0;
     font-size: 30px;
     text-align: center;
-    margin-bottom: 60px;
+    margin-bottom: 40px;
 }
 header{
     width: 100%;
@@ -70,8 +70,11 @@ header .textos-header{
 .contenedor-sobre-nosotros{
     display: flex;
     justify-content: space-evenly;
-    margin-right: 10px;
 }
+.contenedor-sobre-nosotros img{
+    margin-right: 50px;
+}
+
 .imagen-about-us{
     width: 40%;
 }
